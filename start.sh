@@ -57,4 +57,4 @@ fi
 
 echo "Starting uvicorn (FastAPI)..."
 echo "THE LOCAL URL BELOW IS NOT AVALAIBLE !!"
-exec uvicorn api:app --host 127.0.0.1 --port 8081
+exec uvicorn api:app --host 0.0.0.0 --port 8081
